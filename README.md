@@ -7,13 +7,13 @@ Este proyecto académico explora cómo usar la visión artificial para distingui
 
 **[Ver el cuaderno del proyecto](./Clasificador_MRI_Colab.ipynb)**
 
-## Cómo funciona
+## ¿Cómo funciona?
 
 Las imágenes se convierten a escala de grises y se ajustan a un tamaño de 128 × 128 píxeles. La red convolucional (CNN) extrae características visuales y una LSTM bidireccional procesa esas características por filas. A partir de ellas, el modelo asigna la imagen a una de las dos clases.
 
 El cuaderno separa los datos en conjuntos de entrenamiento, validación y prueba. La validación se usa para elegir el mejor modelo y la prueba se reserva para la evaluación final. El cuaderno genera un reporte de clasificación, una matriz de confusión y una curva ROC.
 
-## Cómo probarlo en Google Colab
+## ¿Cómo probarlo en Google Colab?
 
 1. Descarga `Clasificador_MRI_Colab.ipynb` y ábrelo en Google Colab.
 2. Sube tus imágenes a `/content/datos` o cambia la ruta `DATA_DIR` en el cuaderno.
